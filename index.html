@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Stopwatch</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="header">
+      <h1>⏱ Stopwatch</h1>
+      <button id="themeBtn" class="theme-btn" title="Theme">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </div>
+
+    <div class="circle">
+      <div class="inner-circle">
+        <h2 id="display">00:00:00</h2>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <button id="resetBtn" title="Reset">
+        <i class="fa-solid fa-rotate-left"></i>
+      </button>
+      <button id="startBtn" title="Start">
+        <i class="fa-solid fa-play"></i>
+      </button>
+      <button id="lapBtn" title="Lap">
+        <i class="fa-solid fa-flag-checkered"></i>
+      </button>
+    </div>
+
+    <div class="lap-title">
+      <span>Total Laps</span>
+      <span id="lapCount">0</span>
+    </div>
+
+    <div id="laps"></div>
+
+    <div class="bottom-buttons">
+      <button id="clearBtn" class="clear-btn">
+        <i class="fa-solid fa-trash"></i>
+        Clear Laps
+      </button>
+    </div>
+
+  </div>
+
+  <div class="info">
+    <button id="infoBtn">
+      <i class="fa-solid fa-circle-info"></i>
+    </button>
+
+    <div class="info-box">
+      <h3>⌨ Shortcuts</h3>
+      <hr>
+      <p><kbd>Space</kbd> <span>Start / Pause</span></p>
+      <p><kbd>L</kbd> <span>Lap</span></p>
+      <p><kbd>R</kbd> <span>Reset</span></p>
+      <p><kbd>D</kbd> <span>Dark / Light</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
