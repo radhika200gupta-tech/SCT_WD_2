@@ -30,16 +30,14 @@ This project demonstrates the implementation of a modern stopwatch application u
 - **Fully responsive** — scales cleanly from desktop down to mobile
 - **Floating info panel** — a quick-reference card listing all keyboard shortcuts
 
-## 📁 Folder Structure
+📁 Folder Structure
 
 SCT_WD_2/
-├── index.html
-├── style.css
-├── script.js
-├── stopwatch.png
-└── README.md
-
-
+├── index.html      # Markup and structure
+├── style.css       # Styling, theming, and animations
+├── script.js       # Stopwatch logic and interactivity
+├── stopwatch.png   # Project preview screenshot
+└── README.md       # Project documentation
 
 ## 🧩 Sections Included
 
